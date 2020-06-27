@@ -1,5 +1,5 @@
 # Flipkart
-Designing a Flipkart file to related only HTML.
+Designing a Flipkart Online Shopping Demo file to related only HTML.
 # Screenshots
 
 
