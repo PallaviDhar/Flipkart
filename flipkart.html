@@ -8,24 +8,26 @@
 <body style="background-color: #f0f0f0">
 
 	<div style="background-color:  #0066ff">
-		<!--<img src="https://www.underconsideration.com/brandnew/archives/flipkart_logo_detail_icon.jpg" height="25">-->
-		<h2 ><b>Flipkart</b></h2>
+		<img src="https://lh3.googleusercontent.com/q8hxnbpJCYfHipSOG_5tZe5jK_89T6QIsqrEklvGpMFKH8b98pDHJf2tPcn2bxEN96ON" width="100">
+		<h1 style="color:#fafafa" ><b>Flipkart</b></h1>
 	</div>
-
+  </div>
 	<div style="width: 300px;float: left; background-color: #ffe6e6">
 		<h2 style="text-align: center">Filters</h2><hr>
 		<form>
-			<label><b>CATEGOTIES:</b></label><br>
-			<select>
-				<option>None</option>
-				<option>Mobiles</option>
-				<option>Tablets</option>
-			</select><br><hr>
+				<label><b>CATEGOTIES:</b></label><br><br>
+				<select>
+					<option>None</option>
+					<option>Mobiles</option>
+					<option>Tablets</option>
+				</select><br><br><hr>
 
-			<label><b>STATUS:</b></label><br>
-			<input type="radio" name="x">All<br>
-			<input type="radio" name="x">Upcoming<br>
-			<input type="radio" name="x">Avaliable<br><br><hr>
+			<fieldset>
+				<legend><label><b>STATUS:</b></label><br></legend> 
+				<input type="radio" name="x">All<br>
+				<input type="radio" name="x">Upcoming<br>
+				<input type="radio" name="x">Avaliable<br>
+			</fieldset><br><hr>
 
 			<label><b>PRICE RANGE(1k to 10L)</b></label><br>
 			<input type="range" name="" min="10000" max="100000"><br>
@@ -40,28 +42,18 @@
 					<option>25000</option>
 					<option>30000</option>
 					<option>50000</option>
+					<option>50000+</option>
 				</select>
-				
-				<div style="float: right">
-					<select>
-						<option>2000</option>
-						<option>5000</option>
-						<option>10000</option>
-						<option>15000</option>
-						<option>20000</option>
-						<option>25000</option>
-						<option>30000</option>
-						<option>50000</option>
-						<option>50000+</option>
-					</select>
-				</div><br><br><hr>
-			</div>
+			</div><br><hr>
 
-			<label><b>RAM:</b></label><br>
-			<input type="checkbox" name="">6GB & Above<br>
-			<input type="checkbox" name="">4GB<br>
-			<input type="checkbox" name="">3GB<br>
-			<input type="checkbox" name="">2GB<br><br><hr>
+			<fieldset>
+				<legend><label><b>RAM:</b></label><br></legend> 
+				<input type="checkbox" name="">6GB & Above<br>
+				<input type="checkbox" name="">4GB<br>
+				<input type="checkbox" name="">3GB<br>
+				<input type="checkbox" name="">2GB<br>
+			</fieldset><br><hr>
+			
 
 			<label><b>BRAND</b></label><br><br>
 			<select>
@@ -83,11 +75,13 @@
 				</optgroup>
 			</select><br><br><hr>
 
-			<label><b>CUSTOMER RATINGS</b></label><br>
-			<input type="checkbox" name="">4⋆ & above<br>
-			<input type="checkbox" name="">3⋆ & above<br>
-			<input type="checkbox" name="">2⋆ & above<br>
-			<input type="checkbox" name="">1⋆ & above<br><br><hr>
+			<fieldset>
+				<legend><label><b>CUSTOMER RATINGS</b></label><br></legend>
+				<input type="checkbox" name="">4⋆ & above<br>
+				<input type="checkbox" name="">3⋆ & above<br>
+				<input type="checkbox" name="">2⋆ & above<br>
+				<input type="checkbox" name="">1⋆ & above<br>
+			</fieldset><br><hr>
 
 			<label><b>INTERNAL STORAGE</b></label><br><br>
 			<select>
@@ -121,7 +115,7 @@
 				<option>Windows</option>
 			</select><br><br><hr>
 
-			<label><b>NETWORK TYPE</b></label>
+			<label><b>NETWORK TYPE</b></label><br><br>
 			<select>
 				<option>None</option>
 				<option>2G</option>
@@ -130,7 +124,7 @@
 				<option>4G VOLTE</option>
 			</select><br><br><hr>
 
-			<label><b>SCREEN SIZE</b></label>
+			<label><b>SCREEN SIZE</b></label><br><br>
 			<select>
 				<option>None</option>
 				<option>5.5 - 5.9 inch</option>
@@ -139,15 +133,19 @@
 				<option>3.0 - 3.9 inch</option>
 			</select><br><br><hr>
 
-			<label><b>SIM TTYPE</b></label><br>
-			<input type="radio" name="">Dual SIM<br>
-			<input type="radio" name="">Single SIM<br><br><hr>
+			<fieldset>
+				<legend><label><b>SIM TTYPE</b></label><br></legend> 
+				<input type="radio" name="">Dual SIM<br>
+				<input type="radio" name="">Single SIM<br>
+			</fieldset><br><hr>
 
-			<label><b>CAMERA</label></b><br>
-			<input type="radio" name="">Primary Camera<br>
-			<input type="radio" name="">Secondary Camera<br><br><hr>
+			<fieldset>
+				<legend><label><b>CAMERA</label></b><br></legend> 
+				<input type="radio" name="">Primary Camera<br>
+				<input type="radio" name="">Secondary Camera<br>
+			</fieldset><br><hr>
 
-			<label><b>OFFERS</label></b><br>
+			<label><b>OFFERS</label></b><br><br>
 			<select>
 				<option>None</option>
 				<option>Bank Offer</option>
@@ -156,19 +154,21 @@
 				<option>Special Price</option>
 			</select><br><br><hr>
 
-			<label><b>PROCESSOR BRAND</b></label><br>
+			<label><b>PROCESSOR BRAND</b></label><br><br>
 			<select>
 				<option>None</option>
 				<option>Apple</option>
 				<option>Intel</option>
 			</select><br><br><hr>
 
-			<label><b>SPECIALITY</b></label><br>
-			<input type="checkbox" name="">Big Storage<br>
-			<input type="checkbox" name="">Higher Performance<br>
-			<input type="checkbox" name="">Selfie Camera<br><br><hr>
-
-			<label><b>FEATURES</b></label><br>
+			<fieldset>
+				<legend><label><b>SPECIALITY</b></label><br></legend>
+				<input type="checkbox" name="">Big Storage<br>
+				<input type="checkbox" name="">Higher Performance<br>
+				<input type="checkbox" name="">Selfie Camera<br>
+			</fieldset><br><hr>
+			
+			<label><b>FEATURES</b></label><br><br>
 			<select>
 				<option>None</option>
 				<option>FM Player</option>
@@ -178,7 +178,7 @@
 				<option>Blurtooh</option>
 			</select><br><br><hr>
 
-			<label><b>BUDGET</b></label>
+			<label><b>BUDGET</b></label><br><br>
 			<select>
 				<option>Rs. 10000 & below</option>
 				<option>Rs. 10000 to Rs. 14999</option>
@@ -190,7 +190,6 @@
           		<input type="submit" name="" value="Apply Filter">
 		</form>
 	</div>
-
 	<div style="width: 700px;float: left; background-color: #F5FFFA">
 		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTnxzV4JwIfOS-5BqRQoJDB7E-rZTpAMUpx9rWWQBPfeU4K51w_DrraW6rCCYns_7NYXQ0juzo&usqp=CAc" width="150" align="left" height="175">
 		<h3>Realme 6(Comet Blue)</h3>
@@ -208,9 +207,8 @@
 		</p>
 		<div>
             <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-            <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+            <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
         </div>
-
 		<div style="width: 700px;float: left">
 			<img src="https://m.media-amazon.com/images/I/81MDnYmn2oL._AC_SS350_.jpg"width="150" align="left" height="175">
 			<h3>POCO X2 (Atlantis Blue)</h3>
@@ -228,10 +226,9 @@
 			</p>
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>	
 		</div>
-
 		<div style="width: 700px;float: left">
 			<img src="https://i01.appmifile.com/webfile/globalimg/in/cms/D05AB2D9-6A4E-0BE2-8B61-C2CC55B9B1C2.jpg"width="150" align="left" height="175">
 			<h3>Redmi K20 Pro (Flame Red)</h3>
@@ -249,10 +246,9 @@
 			</p>
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>	
 		</div>
-
 		<div style="width: 700px;float: left">
 			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRW9LC1HGGQVROwLGI6CnoUneEc4lUujMLFHm_Xmq_3w95CpKZb_EgjO_2ELhkZkNFjo0iFp_GD&usqp=CAc" width="150" height="175" align="left">
 			<h3>Samsung Galaxy S10 Lite(Prism Black)</h3>
@@ -270,10 +266,9 @@
 			</p>	
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>			
 		</div>
-
 		<div style="width: 700px;float: left">
 			<img src="https://www.gizmochina.com/wp-content/uploads/2019/05/OnePlus-7-Pro-5G-500x500.jpg" width="150" align="left" height="175">
 			<h3>OnePlus 7 Pro(Nebula Blue)</h3>
@@ -291,10 +286,9 @@
 			</p>
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>	
 		</div>
-
 		<div style="width: 700px; float: left">
 			<img src="https://www.91-img.com/pictures/137633-v3-oppo-a31-2020-mobile-phone-large-1.jpg" width="150" align="left">
 			<h3>OPPO A31 (Fantasy White)</h3>
@@ -312,10 +306,9 @@
 			</p>	
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>		
 		</div>
-
 		<div style="width: 700px;float: left">
 			<img src="https://i.gadgets360cdn.com/products/large/1556889469_635_vivos1pro_db.jpg?downsize=*:180&output-quality=80" width="150" align="left" height="175">
 			<h3>Vivo S1 Pro(Dream White)</h3>
@@ -333,10 +326,9 @@
 			</p>
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>			
 		</div>
-
 		<div style="width: 700px; float: left">
 		 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQlLft0fAOvvGcwPE9TsKTs7NuY_3MH3xRCoMcXt91jRtn-C9sAIleLsW70xByB9AdnvAQXOtp&usqp=CAc" width="170" align="left" height="175">
 			<h3>Samsung Galaxy S20 Ultra(Crosmic Grey)</h3>
@@ -354,10 +346,9 @@
 			</p>	
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>		
 		</div>
-
 		<div style="width: 700px; float: left">
 		 <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-red-select-2020?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1586574260319" width="150" align="left" height="175">
 			<h3>Apple iphone SE(Red)</h3>
@@ -374,10 +365,9 @@
 			</p>	
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
             </div>		
 		</div>
-
 		<div style="width: 700px; float: left">
 		 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQY6-C-hXLMdhCRJid9pWV4dzDciroxaV6WTbi0kZs8Gl4gxs3jD6yL5RsVVQ&usqp=CAc" width="150" align="left" height="175">
 			<h3>Lenovo Tab M10(HD)(Slate Black)</h3>
@@ -395,9 +385,11 @@
 			</p>	
 			<div>
                 <button style="background-color: #3d52e0; color: white; border: none; float: left; width: 100px; height: 27px;">More Details</button>
-                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Order Now</button>
-            </div>		
+                <button style="background-color: #ff6666; color: white; border: none; float: right;  width: 100px; height: 27px;">Buy Now</button>
+            </div>	
+
 		</div>
+		
 	</div>
 
 	<div style="width: 400px; height: 1000px;overflow-y: scroll;float: left; background-color: #F8F8FF">
